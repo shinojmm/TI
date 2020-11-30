@@ -8,7 +8,10 @@
 Assuming you already have an existing Angular app
 
 npm install 
+
 npm run ng build
+
 npm run ng serve
+
 npm run ng e2e 
 
