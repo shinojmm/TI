@@ -1,0 +1,132 @@
+[
+  {
+    "description": "    In order to login to the application    \n    As a User    \n    I need to enter the Valid username and Password    ",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "e2eTest/features/test.feature",
+    "elements": [
+      {
+        "id": "login;in-order-to-get-the-titile-of-the-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "In order to get the titile of the page",
+        "tags": [
+          {
+            "name": "@TitleTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "open the application \"http://localhost:4200/\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user validates the title as \"Testellicence\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user enters \"First Name\" as \"Binesh\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user enters \"Last Name\" as \"Binesh\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user enters \"Email\" as \"Binesh\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user enters \"Mobile\" as \"Binesh\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user enters \"Password\" as \"Binesh\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user enters \"Confirm Password\" as \"Binesh\"",
+            "match": {
+              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
