@@ -9,13 +9,25 @@ Feature: Login
         And User enters the Admin "TestUser"  
         Then user should login succcessfully 
 
-    @TitleTest
+    @TestUserControls
     Scenario: In order to get the titile of the page  
         Given open the application "http://localhost:4200/"  
         Then user validates the title as "Testellicence" 
         And user enters "First Name" as "Binesh"
-        And user enters "Last Name" as "Binesh"
-        And user enters "Email" as "Binesh"
-        And user enters "Mobile" as "Binesh"
-        And user enters "Password" as "Binesh"
-        And user enters "Confirm Password" as "Binesh"
+        And user enters "Last Name" as "Subramanian"
+        And user enters "Email" as "binesh.s3@cognizant.com"
+        And user enters "Mobile" as "07443809509  "
+        And user enters "Password" as "Test@1234"
+        And user enters "Confirm Password" as "Test@1234"
+
+    @TestBusinessProcessComponent
+    Scenario: In order to get the titile of the page  
+        Given open the application "http://localhost:4200/"  
+        Then user validates the title as "Testellicence" 
+        And user fills the registration details
+        |First Name         | Binesh                    |
+        |Last Name          | Subramanian               |
+        |Email              | binesh.s3@cognizant.com   |
+        |Mobile             | 07443809509               |
+        |Password           | Test@1234                 |
+        |Confirm Password   | Test@1234                 |                           
