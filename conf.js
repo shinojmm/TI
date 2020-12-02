@@ -1,3 +1,5 @@
+var cucumberReportDirectory = 'protractor-report';
+var jsonReportFile = cucumberReportDirectory + '/cucumber_report.json';
 exports.config = {  
   //seleniumAddress: 'http://127.0.0.1:4444/wd/hub',  
   directConnect:true,  
@@ -17,7 +19,20 @@ exports.config = {
   {  
     require: './e2eTest/stepDefinition/*/*.js',  
     tags: '@TitleTest',  
+    format: 'json:./' + jsonReportFile,
        
-  }  
+  } ,
+  onCleanUp: function () {
+    var CucumberHtmlReport = require('cucumber-html-report');
+
+    return CucumberHtmlReport.create({
+        source: jsonReportFile,
+        dest: cucumberReportDirectory,
+        title: 'Testellicence - Protractor Test Run',
+        component: new Date().toString()
+    }).then(console.log).catch(console.log);
+},
+ignoreUncaughtExceptions: true,
+untrackOutstandingTimeouts: true
 
 };  
