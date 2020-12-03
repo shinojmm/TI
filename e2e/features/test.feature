@@ -19,6 +19,7 @@ Feature: Login
         And user enters "Mobile" as "07443809509  "
         And user enters "Password" as "Test@1234"
         And user enters "Confirm Password" as "Test@1234"
+        And user selects "Female" from the "Gender" dropdown
 
     @TestBusinessProcessComponent
     Scenario: In order to get the titile of the page  
