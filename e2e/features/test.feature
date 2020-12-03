@@ -19,6 +19,7 @@ Feature: Login
         And user enters "Mobile" as "07443809509  "
         And user enters "Password" as "Test@1234"
         And user enters "Confirm Password" as "Test@1234"
+        And user selects "Male" from the "Gender" dropdown
 
     @TestBusinessProcessComponent
     Scenario: In order to get the titile of the page  
@@ -30,4 +31,5 @@ Feature: Login
         |Email              | binesh.s3@cognizant.com   |
         |Mobile             | 07443809509               |
         |Password           | Test@1234                 |
-        |Confirm Password   | Test@1234                 |                           
+        |Confirm Password   | Test@1234                 | 
+        |Gender             | Male                      |                          

@@ -42,3 +42,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+protractor-report/cucumber_report.json
+protractor-report/index.html

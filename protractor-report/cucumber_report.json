@@ -6,19 +6,17 @@
     "line": 1,
     "id": "login",
     "tags": [],
-
     "uri": "e2e/features/test.feature",
-
     "elements": [
       {
         "id": "login;in-order-to-get-the-titile-of-the-page",
         "keyword": "Scenario",
-        "line": 24,
+        "line": 25,
         "name": "In order to get the titile of the page",
         "tags": [
           {
             "name": "@TestBusinessProcessComponent",
-            "line": 23
+            "line": 24
           }
         ],
         "type": "scenario",
@@ -26,36 +24,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 25,
+            "line": 26,
             "name": "open the application \"http://localhost:4200/\"",
             "match": {
-
               "location": "e2e/stepDefinition/common/basicutils.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2137000000
-
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3750000000
-
+              "duration": 2691000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
+            "line": 27,
             "name": "user validates the title as \"Testellicence\"",
             "match": {
-
               "location": "e2e/stepDefinition/common/basicutils.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 20000000
             }
           },
           {
@@ -97,99 +86,25 @@
                       "Confirm Password",
                       "Test@1234"
                     ]
+                  },
+                  {
+                    "cells": [
+                      "Gender",
+                      "Male"
+                    ]
                   }
                 ]
               }
             ],
-
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35000000
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "And ",
-            "line": 16,
-            "name": "user enters \"First Name\" as \"Binesh\"",
-            "match": {
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 215000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "user enters \"Last Name\" as \"Binesh\"",
-            "match": {
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 159000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "user enters \"Email\" as \"Binesh\"",
-            "match": {
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 146000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "user enters \"Mobile\" as \"Binesh\"",
-            "match": {
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 174000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "user enters \"Password\" as \"Binesh\"",
-            "match": {
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 160000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
+            "line": 28,
             "name": "user fills the registration details",
             "match": {
               "location": "e2e/stepDefinition/business/RegistrationDefinitions.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 751000000
-              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 164000000
+              "duration": 679000000
             }
           }
         ]

@@ -25,6 +25,7 @@ Then('user fills the registration details', async (dataTable)=> {
   await element(by.id('mobile')).sendKeys(formVals['Mobile']);
   await element(by.id('pass_word')).sendKeys(formVals['Password']);
   await element(by.id('pass_word_confirm')).sendKeys(formVals['Confirm Password']);
+  await element(by.id('gender')).$('[value='+formVals['Gender']+']').click();
   
   
 });
