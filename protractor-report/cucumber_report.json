@@ -6,17 +6,19 @@
     "line": 1,
     "id": "login",
     "tags": [],
-    "uri": "e2e\\features\\test.feature",
+
+    "uri": "e2e/features/test.feature",
+
     "elements": [
       {
         "id": "login;in-order-to-get-the-titile-of-the-page",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 24,
         "name": "In order to get the titile of the page",
         "tags": [
           {
-            "name": "@TitleTest",
-            "line": 12
+            "name": "@TestBusinessProcessComponent",
+            "line": 23
           }
         ],
         "type": "scenario",
@@ -24,22 +26,82 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 25,
             "name": "open the application \"http://localhost:4200/\"",
             "match": {
+
+              "location": "e2e/stepDefinition/common/basicutils.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2137000000
+
               "location": "e2e\\stepDefinition\\common\\basicutils.js:7"
             },
             "result": {
               "status": "passed",
               "duration": 3750000000
+
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 26,
             "name": "user validates the title as \"Testellicence\"",
             "match": {
+
+              "location": "e2e/stepDefinition/common/basicutils.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "First Name",
+                      "Binesh"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Last Name",
+                      "Subramanian"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Email",
+                      "binesh.s3@cognizant.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mobile",
+                      "07443809509"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Password",
+                      "Test@1234"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Confirm Password",
+                      "Test@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+
               "location": "e2e\\stepDefinition\\common\\basicutils.js:13"
             },
             "result": {
@@ -115,9 +177,14 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 21,
-            "name": "user enters \"Confirm Password\" as \"Binesh\"",
+            "line": 27,
+            "name": "user fills the registration details",
             "match": {
+              "location": "e2e/stepDefinition/business/RegistrationDefinitions.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 751000000
               "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
