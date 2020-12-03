@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
-        <h1 style="color: white;">Components</h1>
+        <h2 style="color: white;">Road To Reusable Components</h2>
       </div>
     </div>
   </div>
@@ -22,6 +22,13 @@
         <div class="col-sm-9 col-md-9 col-lg-10 content">
           <div class="content-area-right">
             <div class="row">
+              <pre> <h5>   The methodology we will demonstrate below is conceived with reusability and robustness in mind. It is 
+   largely independent of project-specific requirements and remains as close as possible to the purity that
+   HTML development deserves, resulting in individual HTML snippets that are as versatile as they are
+   reusable.</h5>
+             </pre>
+            </div>
+            <div class="row" >
               <br>
               <b>Text Box:</b>
               <br>
@@ -29,13 +36,13 @@
               <br>
               <textarea rows="6" cols="100">
                 <div class="col-md-4">
-                  <label class="label-default" for="Fname">{{mytext}}</label> <input class="form-control required"
-                    id="Fname" name="Fname" type="text">
+                  <label class="label-default" for="name">{{mytext}}</label> <input class="form-control required"
+                    id="name" name="name" type="text">
                 </div>
              
               </textarea>
               <br>
-              Copy the below reusable code for text box
+              Copy the below reusable code for user control
               <br>
               <textarea rows="3" cols="100">
                 <app-comp-textbox [mytext]=firstName></app-comp-textbox>
