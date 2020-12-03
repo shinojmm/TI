@@ -6,7 +6,9 @@
     "line": 1,
     "id": "login",
     "tags": [],
+
     "uri": "e2e/features/test.feature",
+
     "elements": [
       {
         "id": "login;in-order-to-get-the-titile-of-the-page",
@@ -27,11 +29,19 @@
             "line": 25,
             "name": "open the application \"http://localhost:4200/\"",
             "match": {
+
               "location": "e2e/stepDefinition/common/basicutils.js:7"
             },
             "result": {
               "status": "passed",
               "duration": 2137000000
+
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3750000000
+
             }
           },
           {
@@ -40,6 +50,7 @@
             "line": 26,
             "name": "user validates the title as \"Testellicence\"",
             "match": {
+
               "location": "e2e/stepDefinition/common/basicutils.js:13"
             },
             "result": {
@@ -90,6 +101,81 @@
                 ]
               }
             ],
+
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user enters \"First Name\" as \"Binesh\"",
+            "match": {
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user enters \"Last Name\" as \"Binesh\"",
+            "match": {
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user enters \"Email\" as \"Binesh\"",
+            "match": {
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user enters \"Mobile\" as \"Binesh\"",
+            "match": {
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user enters \"Password\" as \"Binesh\"",
+            "match": {
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "And ",
             "line": 27,
             "name": "user fills the registration details",
@@ -99,6 +185,11 @@
             "result": {
               "status": "passed",
               "duration": 751000000
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164000000
             }
           }
         ]

@@ -18,7 +18,9 @@ exports.config = {
   cucumberOpts: 
   {  
     require: './e2e/stepDefinition/*/*.js',  
+
     tags: '@TestBusinessProcessComponent',  
+
     format: 'json:./' + jsonReportFile,
        
   } ,
