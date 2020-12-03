@@ -13,11 +13,11 @@ exports.config = {
   },   
   specs: 
   [  
-    './e2eTest/features/*.feature'  
+    './e2e/features/*.feature'  
   ],  
   cucumberOpts: 
   {  
-    require: './e2eTest/stepDefinition/*/*.js',  
+    require: './e2e/stepDefinition/*/*.js',  
     tags: '@TitleTest',  
     format: 'json:./' + jsonReportFile,
        

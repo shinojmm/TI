@@ -1,0 +1,50 @@
+<div id="highlighted" class="hidden-xs">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
+        <h1 style="color: white;">Components</h1>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="interior-page">
+    <div class="container-fluid">
+      <div class="row">
+        <!--Sidebar-->
+        <div class="col-sm-3 col-md-3 col-lg-2 sidebar interior-page-nav hidden-xs">
+          <div class="" id="dd.0.1.0">
+            <div id="subMenu" class="">
+
+            </div>
+          </div>
+        </div>
+
+        <!--Content-->
+        <div class="col-sm-9 col-md-9 col-lg-10 content">
+          <div class="content-area-right">
+            <div class="row">
+              <br>
+              <b>Text Box:</b>
+              <br>
+              Copy the below reusable code for text box
+              <br>
+              <textarea rows="6" cols="100">
+                <div class="col-md-4">
+                  <label class="label-default" for="Fname">{{mytext}}</label> <input class="form-control required"
+                    id="Fname" name="Fname" type="text">
+                </div>
+             
+              </textarea>
+              <br>
+              Copy the below reusable code for text box
+              <br>
+              <textarea rows="3" cols="100">
+                <app-comp-textbox [mytext]=firstName></app-comp-textbox>
+              </textarea>
+              <!-- The button used to copy the text -->
+              <button onclick="myFunction()" class="btn">Copy text</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

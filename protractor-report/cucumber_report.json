@@ -6,7 +6,7 @@
     "line": 1,
     "id": "login",
     "tags": [],
-    "uri": "e2eTest/features/test.feature",
+    "uri": "e2e\\features\\test.feature",
     "elements": [
       {
         "id": "login;in-order-to-get-the-titile-of-the-page",
@@ -27,11 +27,11 @@
             "line": 14,
             "name": "open the application \"http://localhost:4200/\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:7"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2293000000
+              "duration": 3750000000
             }
           },
           {
@@ -40,11 +40,11 @@
             "line": 15,
             "name": "user validates the title as \"Testellicence\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:13"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 35000000
             }
           },
           {
@@ -53,11 +53,11 @@
             "line": 16,
             "name": "user enters \"First Name\" as \"Binesh\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 321000000
+              "duration": 215000000
             }
           },
           {
@@ -66,11 +66,11 @@
             "line": 17,
             "name": "user enters \"Last Name\" as \"Binesh\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 159000000
             }
           },
           {
@@ -79,11 +79,11 @@
             "line": 18,
             "name": "user enters \"Email\" as \"Binesh\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 146000000
             }
           },
           {
@@ -92,11 +92,11 @@
             "line": 19,
             "name": "user enters \"Mobile\" as \"Binesh\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 132000000
+              "duration": 174000000
             }
           },
           {
@@ -105,11 +105,11 @@
             "line": 20,
             "name": "user enters \"Password\" as \"Binesh\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 64000000
+              "duration": 160000000
             }
           },
           {
@@ -118,11 +118,11 @@
             "line": 21,
             "name": "user enters \"Confirm Password\" as \"Binesh\"",
             "match": {
-              "location": "e2eTest/stepDefinition/common/basicutils.js:21"
+              "location": "e2e\\stepDefinition\\common\\basicutils.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 53000000
+              "duration": 164000000
             }
           }
         ]
