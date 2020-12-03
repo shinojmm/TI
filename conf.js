@@ -19,7 +19,7 @@ exports.config = {
   {  
     require: './e2e/stepDefinition/*/*.js',  
 
-    tags: '@TestUserControls',  
+    tags: '@TestBusinessProcessComponent',  
 
     format: 'json:./' + jsonReportFile,
        
